@@ -225,3 +225,18 @@ footer {
     margin-right: 15px;
     margin-top: 35px;
 }
+
+/*Mobile and Tablet*/
+
+@media only screen and (max-width:650px) {
+    .search {
+        width: 90%;
+    }
+    footer {
+        width: 150px;
+    }
+    .footer-content {
+        height: 100px;
+        flex-direction: column;
+    }
+}
